@@ -2,8 +2,7 @@
 function insert(num){
     document.form.textview.value=document.form.textview.value+num;
   }
-  
-  function equals(){
+    function equals(){
     var txt=document.form.textview.value;
     if(txt)
     document.form.textview.value=eval(txt);
